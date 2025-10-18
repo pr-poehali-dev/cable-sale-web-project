@@ -1,6 +1,10 @@
 import { Separator } from '@/components/ui/separator';
 
-export default function Footer() {
+interface FooterProps {
+  onNavigate: (tab: string) => void;
+}
+
+export default function Footer({ onNavigate }: FooterProps) {
   return (
     <footer className="bg-slate-900 text-white mt-20">
       <div className="container mx-auto px-4 py-12">
@@ -22,11 +26,39 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-semibold mb-4">Информация</h4>
-            <ul className="space-y-2 text-sm text-slate-400">
-              <li>О компании</li>
-              <li>Доставка</li>
-              <li>Оплата</li>
-              <li>Сертификаты</li>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <button 
+                  onClick={() => onNavigate('about')}
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  О компании
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => onNavigate('delivery')}
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Доставка
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => onNavigate('delivery')}
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Оплата
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => onNavigate('about')}
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Сертификаты
+                </button>
+              </li>
             </ul>
           </div>
           <div>

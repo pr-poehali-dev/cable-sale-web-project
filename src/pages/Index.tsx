@@ -102,7 +102,7 @@ export default function Index() {
         </Tabs>
       </main>
 
-      <Footer />
+      <Footer onNavigate={setActiveTab} />
     </div>
   );
 }
