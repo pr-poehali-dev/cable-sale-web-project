@@ -15,7 +15,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Каталог</h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li>Силовые кабели</li>
-              <li>Гибкие кабели</li>
+              <li>Контрольные кабели</li>
               <li>Установочные провода</li>
               <li>Соединительные кабели</li>
             </ul>
@@ -32,9 +32,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Контакты</h4>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li>+7 (495) 123-45-67</li>
-              <li>info@kabelpro.ru</li>
-              <li>г. Москва, ул. Кабельная, 15</li>
+              <li>+7 (903) 278-68-49</li>
+              <li>+7 (495) 225-33-83</li>
+              <li>inna-my@mail.ru</li>
             </ul>
           </div>
         </div>

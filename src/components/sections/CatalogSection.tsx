@@ -51,6 +51,8 @@ export default function CatalogSection({
             <SelectItem value="2.5 мм²">2.5 мм²</SelectItem>
             <SelectItem value="4 мм²">4 мм²</SelectItem>
             <SelectItem value="16 мм²">16 мм²</SelectItem>
+            <SelectItem value="25 мм²">25 мм²</SelectItem>
+            <SelectItem value="70 мм²">70 мм²</SelectItem>
           </SelectContent>
         </Select>
 
@@ -75,6 +77,7 @@ export default function CatalogSection({
             <SelectItem value="Гибкий">Гибкий</SelectItem>
             <SelectItem value="Установочный">Установочный</SelectItem>
             <SelectItem value="Соединительный">Соединительный</SelectItem>
+            <SelectItem value="Контрольный">Контрольный</SelectItem>
           </SelectContent>
         </Select>
       </div>

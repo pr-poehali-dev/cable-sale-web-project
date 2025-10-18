@@ -21,15 +21,17 @@ export default function ContactsSection() {
             <div className="flex items-start gap-3">
               <Icon name="Phone" className="text-primary mt-1" />
               <div>
-                <h4 className="font-semibold mb-1">Телефон</h4>
-                <p className="text-muted-foreground">+7 (495) 123-45-67</p>
+                <h4 className="font-semibold mb-1">Телефоны</h4>
+                <p className="text-muted-foreground">+7 (903) 278-68-49</p>
+                <p className="text-muted-foreground">+7 (495) 225-33-83</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Icon name="Mail" className="text-primary mt-1" />
               <div>
                 <h4 className="font-semibold mb-1">Email</h4>
-                <p className="text-muted-foreground">info@kabelpro.ru</p>
+                <p className="text-muted-foreground">inna-my@mail.ru</p>
+                <p className="text-muted-foreground">kabzavodkkz@mail.ru</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
